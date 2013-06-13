@@ -7,7 +7,7 @@ This is an un-official Urban Dictionary PHP API.
 
 ```PHP
 //initialize UrbanDictionary API
-$UrbanDic = new UrbanDictionary();
+$urbanDic = new UrbanDictionary();
 
 //get the first definition of a word
 $urbanDic->lookupDefinition('Hacker');
