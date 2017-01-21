@@ -26,7 +26,7 @@ class UrbanDictionary{
 
 		/* find all elements with "definition" class in the DOM using XPath */
 		$finder = new DomXPath($dom);
-		$className = 'definition';
+		$className = 'meaning';
 		$definitionArray = $finder->query("//*[contains(@class, '$className')]");
 
 		/* return the first definition */
